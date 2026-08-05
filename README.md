@@ -50,8 +50,7 @@ specific PyQt version.
 
 ## Installation
 
-1. Download the plugin ZIP archive from the
-   [Releases](https://github.com/suprun/attribute_form_toggle/releases).
+1. Download the plugin ZIP archive from the repo folder.
 2. In QGIS, open **Plugins → Manage and Install Plugins**.
 3. Select the **Install from ZIP** tab.
 4. Choose the downloaded archive and click **Install Plugin**.
