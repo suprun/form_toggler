@@ -90,20 +90,6 @@ The `i18n` directory contains editable `.ts` sources and compiled `.qm` files
 for every language shipped with the supported QGIS versions. QGIS loads the
 translation matching its current interface locale automatically.
 
-## Packaging
-
-Run the packaging script from the project root with Python 3:
-
-```bash
-python package_plugin.py
-```
-
-The script reads the version from `metadata.txt`, validates `repo/plugins.xml`
-and all TS/QM pairs, then creates a QGIS-compatible ZIP in `repo/plugin`. ZIP
-entry names always use `/`, including on Windows. After a successful build,
-older `attribute_form_toggle.*.zip` packages are removed. Use `--keep-old` to
-retain them.
-
 ## License
 
 This project is distributed under the [MIT License](LICENSE).
