@@ -1,0 +1,9 @@
+[general]
+name=Form Toggler
+qgisMinimumVersion=3.22
+description=Toggle suppressing the attribute form popup after feature creation from the Layers panel toolbar.
+version=1.0.3
+author=Serhiy Suprun
+email=suprun.serhiy@gmail.com
+category=Digitizing
+icon=icon.svg

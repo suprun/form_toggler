@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="24"
+   width="24"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="icon-cancel.svg"
+   inkscape:export-filename="E:\onedrive\pyqgis\Attribute Form Toggle\attr\icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1195"
+     inkscape:window-height="911"
+     id="namedview18"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="16"
+     inkscape:cx="10.317896"
+     inkscape:cy="9.8550671"
+     inkscape:window-x="2733"
+     inkscape:window-y="387"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg16">
+    <sodipodi:guide
+       position="21.5,21.500002"
+       orientation="1,0"
+       id="guide41"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-0.26516504,-6.2755727"
+       orientation="0,1"
+       id="guide43"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     transform="translate(0 -8)"
+     id="g14">
+    <path
+       d="m2.5 10.499998h19v19h-19z"
+       fill="#e6e6e6"
+       stroke="#6e97c4"
+       id="path2" />
+    <g
+       fill-rule="evenodd"
+       id="g12">
+      <path
+         d="m5 16h4"
+         fill="#46617e"
+         stroke="#455e78"
+         stroke-width="2"
+         id="path4" />
+      <rect
+         fill="#fafefe"
+         height="5"
+         rx=".5"
+         stroke="#6e97c4"
+         width="8"
+         x="10.5"
+         y="13.5"
+         id="rect6" />
+      <path
+         d="m5 24.000001h4"
+         fill="#919699"
+         stroke="#455e78"
+         stroke-width="2"
+         id="path8" />
+      <rect
+         fill="#fafefe"
+         height="5"
+         rx=".5"
+         stroke="#6e97c4"
+         width="8"
+         x="10.500001"
+         y="21.5"
+         id="rect10" />
+    </g>
+  </g>
+  <circle
+     style="fill:#d40000"
+     id="path16"
+     cx="15.07116"
+     cy="15.085628"
+     r="5.9300942" />
+  <rect
+     style="fill:#ffffff;stroke-width:0.84356618"
+     id="rect18"
+     width="7.3362331"
+     height="2.5632622"
+     x="11.35885"
+     y="13.848192" />
+</svg>
