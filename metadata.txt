@@ -1,9 +1,18 @@
 [general]
-name=Form Toggler
-qgisMinimumVersion=3.22
-description=Toggle suppressing the attribute form popup after feature creation from the Layers panel toolbar.
-version=1.0.3
+name=Attribute Form Toggle
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Temporarily suppress the attribute form after feature creation without overriding the global QGIS setting.
+about=Attribute Form Toggle temporarily suppresses the attribute form after feature creation for active vector layers without changing the global QGIS suppression option. It complements the Reuse last entered attribute values option.
+version=1.0.3.7
 author=Serhiy Suprun
 email=suprun.serhiy@gmail.com
-category=Digitizing
-icon=icon.svg
+category=Vector
+icon=icon.png
+homepage=https://github.com/suprun/form_toggler
+tracker=https://github.com/suprun/form_toggler/issues
+repository=https://github.com/suprun/form_toggler
+tags=attributes,digitizing,form
+experimental=False
+deprecated=False
+server=False

@@ -39,17 +39,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1195"
-     inkscape:window-height="911"
+     inkscape:window-width="1550"
+     inkscape:window-height="950"
      id="namedview18"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="16"
-     inkscape:cx="10.317896"
+     inkscape:cx="-0.807104"
      inkscape:cy="9.8550671"
-     inkscape:window-x="2733"
-     inkscape:window-y="387"
+     inkscape:window-x="2305"
+     inkscape:window-y="320"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg16">
     <sodipodi:guide
@@ -107,16 +107,16 @@
     </g>
   </g>
   <circle
-     style="fill:#d40000"
+     style="fill:#d40000;stroke-width:1.35834169"
      id="path16"
-     cx="15.07116"
-     cy="15.085628"
-     r="5.9300942" />
+     cx="11.88366"
+     cy="12.023128"
+     r="8.0550938" />
   <rect
-     style="fill:#ffffff;stroke-width:0.84356618"
+     style="fill:#ffffff;stroke-width:1.14585102"
      id="rect18"
-     width="7.3362331"
-     height="2.5632622"
-     x="11.35885"
-     y="13.848192" />
+     width="9.9651117"
+     height="3.4817858"
+     x="6.841074"
+     y="10.342267" />
 </svg>
