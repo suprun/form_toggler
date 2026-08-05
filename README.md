@@ -9,8 +9,12 @@ Attribute Form Toggle is a QGIS plugin that lets you temporarily disable the
 automatic opening of the attribute form after creating a feature with a single
 click.
 
+## Demo
+
+![Attribute Form Toggle demo](demo.gif)
+
 It is useful for rapid digitizing workflows where attributes do not need to be
-entered after adding each geometry. Complements the **Reuse last entered attribute values** checkbox under
+entered after adding each geometry. Complements the **Reuse last entered attribute values** option under
 **Settings → Options → Digitizing**: QGIS retains previously entered values,
 while the plugin controls whether the attribute form opens after each new
 feature.
