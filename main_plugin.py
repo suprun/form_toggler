@@ -24,6 +24,12 @@ BUTTON_LOCATION_SETTING = (
 LEGACY_BUTTON_LOCATION_SETTING = "/plugins/form_toggler/button_location"
 LAYERS_TOOLBAR_LOCATION = "layers"
 PLUGINS_TOOLBAR_LOCATION = "plugins"
+MAP_LAYER_TYPE = getattr(QgsMapLayer, "LayerType", QgsMapLayer)
+EDIT_FORM_SUPPRESS = getattr(
+    QgsEditFormConfig,
+    "FeatureFormSuppress",
+    QgsEditFormConfig,
+)
 
 
 class AttributeFormTogglePlugin:
@@ -319,19 +325,19 @@ class AttributeFormTogglePlugin:
         )
 
     def on_layer_changed(self, layer):
-        if not layer or layer.type() != QgsMapLayer.VectorLayer:
+        if not layer or layer.type() != MAP_LAYER_TYPE.VectorLayer:
             return
         form_config = layer.editFormConfig()
         suppress_mode = (
-            QgsEditFormConfig.SuppressOn
+            EDIT_FORM_SUPPRESS.SuppressOn
             if self.is_active_mode
-            else QgsEditFormConfig.SuppressDefault
+            else EDIT_FORM_SUPPRESS.SuppressDefault
         )
         form_config.setSuppress(suppress_mode)
         layer.setEditFormConfig(form_config)
 
     def restore_layer_form(self, layer):
-        if layer and layer.type() == QgsMapLayer.VectorLayer:
+        if layer and layer.type() == MAP_LAYER_TYPE.VectorLayer:
             form_config = layer.editFormConfig()
-            form_config.setSuppress(QgsEditFormConfig.SuppressDefault)
+            form_config.setSuppress(EDIT_FORM_SUPPRESS.SuppressDefault)
             layer.setEditFormConfig(form_config)
