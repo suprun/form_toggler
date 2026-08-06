@@ -26,6 +26,7 @@ PACKAGE_ROOT_FILES = (
     "metadata.txt",
     "icon-cancel.svg",
     "icon.png",
+    "icon.svg",
     "README.md",
     "LICENSE",
 )

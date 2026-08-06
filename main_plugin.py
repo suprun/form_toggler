@@ -256,7 +256,7 @@ class AttributeFormTogglePlugin:
         self.button_location = None
 
     def set_plugin_submenu_icon(self):
-        icon_path = os.path.join(self.plugin_dir, "icon.png")
+        icon_path = os.path.join(self.plugin_dir, "icon.svg")
         plugin_icon = QIcon(icon_path)
         if plugin_icon.isNull():
             return
